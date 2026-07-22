@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:linear-gradient(135deg,#000,#111,#1a1a1a);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+h1{
+
+    text-align:center;
+    margin:40px;
+    font-size:50px;
+    color:#ffd700;
+    text-shadow:0 0 15px red;
+}
+
+.contenedor{
+
+    width:80%;
+    margin:auto;
+}
+
+.personaje{
+
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    margin:25px 0;
+    padding:15px;
+    border-radius:15px;
+    transition:.4s;
+    border:3px solid transparent;
+}
+
+.personaje img{
+
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-right:20px;
+    transition:.4s;
+}
+
+.personaje span{
+
+    font-size:28px;
+    color:white;
+    font-weight:bold;
+}
+
+.personaje:hover{
+
+    transform:translateX(20px) scale(1.05);
+    box-shadow:0 0 30px #ff0000;
+}
+
+/* Jin */
+
+.jin{
+    background:#202020;
+}
+
+.jin:hover{
+    border-color:#ff0000;
+}
+
+/* Kazuya */
+
+.kazuya{
+    background:#1a1a30;
+}
+
+.kazuya:hover{
+    border-color:#00a2ff;
+}
+
+/* King */
+
+.king{
+    background:#2d2400;
+}
+
+.king:hover{
+    border-color:#ffd700;
+}
+
+/* Hwoarang */
+
+.hwoarang{
+    background:#330000;
+}
+
+.hwoarang:hover{
+    border-color:#ff6600;
+}
+
+/* Paul */
+
+.paul{
+    background:#111;
+}
+
+.paul:hover{
+    border-color:#ffffff;
+}
+
+.personaje:hover img{
+
+    transform:scale(1.2) rotate(-5deg);
+}
